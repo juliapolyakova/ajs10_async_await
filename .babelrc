@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "useBuiltIns": "usage",
+      "targets": {
+        // https://jamie.build/last-2-versions
+        "browsers": ["last 2 Chrome versions"]
+      },
+    }]
+  ]
+}
