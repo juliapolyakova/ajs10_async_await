@@ -11,7 +11,7 @@ test('GameSavingLoader', async () => {
       points: 2000,
     },
   });
-  const recived = await GameSavingLoader.load();
-  expect(recived).toEqual(expected);
+  const received = await GameSavingLoader.load();
+  expect(received).toEqual(expected);
 });
  
